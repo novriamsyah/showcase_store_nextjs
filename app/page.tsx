@@ -7,7 +7,7 @@ import { SlideData } from '../constans/slider';
 import Image from 'next/image';
 import { Controller } from 'swiper/modules';
 import { useEffect, useState } from 'react';
-import { Navbar } from '@/components';
+import { Channel, Hero, Navbar } from '@/components';
 
 export default function Home() {
 
@@ -53,8 +53,10 @@ export default function Home() {
     //       </Swiper>
     //   </div>
     // </div>
-    <div className="relative z-0 bg-dark-200 min-h-screen">
+    <div className="relative z-0 bg-night min-h-screen">
         <Navbar />
+        <Hero />
+        <Channel />
     </div>
   );
 }

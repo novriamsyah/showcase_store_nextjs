@@ -50,7 +50,6 @@ const Navbar = () => {
             {navLinks.map((nav) => (
                 <li
                 key={nav.id}
-
                 >
                 <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>

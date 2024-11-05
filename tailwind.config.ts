@@ -22,6 +22,7 @@ const config = {
     extend: {
       colors: {
         night: "#050816",
+        tertiary: "#151030",
         green: {
           500: "#24AE7C",
           600: "#0D2A1F",
